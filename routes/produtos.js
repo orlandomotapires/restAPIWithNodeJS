@@ -10,9 +10,18 @@ router.get('/', (req, res, next) =>{
 
 //Insere um produto
 router.post('/', (req, res, next)=>{
+
+  const produto = { //Objeto produto tem nome e preco
+    nome: req.body.nome,
+    preco: req.body.preco
+  };
+
   res.status(201).send({
-    mensagem: 'O produto foi criado'
+    mensagem: 'Insere um produto',
+    produtoCriado: produto
+
   })
+
 });
 
 //Retorna os dados de um produto
