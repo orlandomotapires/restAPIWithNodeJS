@@ -9,8 +9,8 @@
 6 silly lifecycle rest-api@1.0.0~prestart: no script for prestart, continuing
 7 info lifecycle rest-api@1.0.0~start: rest-api@1.0.0
 8 verbose lifecycle rest-api@1.0.0~start: unsafe-perm in lifecycle true
-9 verbose lifecycle rest-api@1.0.0~start: PATH: /home/orlandomota/.nvm/versions/node/v6.14.4/lib/node_modules/npm/bin/node-gyp-bin:/home/orlandomota/Relevantes/Programatione/web/restAPIWithNodeJS/node_modules/.bin:/home/orlandomota/.nvm/versions/node/v6.14.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
-10 verbose lifecycle rest-api@1.0.0~start: CWD: /home/orlandomota/Relevantes/Programatione/web/restAPIWithNodeJS
+9 verbose lifecycle rest-api@1.0.0~start: PATH: /home/orlandomota/.nvm/versions/node/v6.14.4/lib/node_modules/npm/bin/node-gyp-bin:/home/orlandomota/Documents/Programatione/web/restAPIWithNodeJS/node_modules/.bin:/home/orlandomota/.nvm/versions/node/v6.14.4/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/orlandomota/.dotnet/tools:/home/orlandomota/.dotnet/tools
+10 verbose lifecycle rest-api@1.0.0~start: CWD: /home/orlandomota/Documents/Programatione/web/restAPIWithNodeJS
 11 silly lifecycle rest-api@1.0.0~start: Args: [ '-c', 'nodemon server.js' ]
 12 silly lifecycle rest-api@1.0.0~start: Returned: code: 1  signal: null
 13 info lifecycle rest-api@1.0.0~start: Failed to exec start script
@@ -25,8 +25,8 @@
 14 verbose stack     at maybeClose (internal/child_process.js:920:16)
 14 verbose stack     at Process.ChildProcess._handle.onexit (internal/child_process.js:230:5)
 15 verbose pkgid rest-api@1.0.0
-16 verbose cwd /home/orlandomota/Relevantes/Programatione/web/restAPIWithNodeJS
-17 error Linux 5.15.0-40-generic
+16 verbose cwd /home/orlandomota/Documents/Programatione/web/restAPIWithNodeJS
+17 error Linux 5.15.0-41-generic
 18 error argv "/home/orlandomota/.nvm/versions/node/v6.14.4/bin/node" "/home/orlandomota/.nvm/versions/node/v6.14.4/bin/npm" "start"
 19 error node v6.14.4
 20 error npm  v3.10.10
