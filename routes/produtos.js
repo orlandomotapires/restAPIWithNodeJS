@@ -16,7 +16,7 @@ router.post("/", (req, res, next) => {
 			'INSERT INTO produtos (nome, preco) VALUES (?,?)',
 			[req.body.nome, req.body.preco],
 			(error, resultado, field) => {
-				conn.release();
+				conn.release();	
 
 				if (error) {
 						return res.status(500).send({
@@ -28,7 +28,7 @@ router.post("/", (req, res, next) => {
 
 				res.status(201).send({
 					mensagem: 'Produto inserido com sucesso',
-					id_produto: resultado.insertId
+					id_produto: resultado.insertId 
 				});
 			}
 		)
